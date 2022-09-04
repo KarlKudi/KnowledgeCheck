@@ -1,0 +1,51 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: white;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  background-color: #876445;
+}
+
+.navbar-brand{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin: 0 2rem 0 1rem;
+  word-spacing: -0.5rem;
+}
+
+.navbar-brand:hover{
+  color: #F4DFBA;
+}
+
+
+.nav-link{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-right: 2rem;
+}
+
+.nav-link:hover{
+  color: #F4DFBA;
+}
+
+/* Landing */
+
+.container-fluid{
+  padding: 5% 13%;
+}
+
+.landing{
+  background-color: #CA965C;
+}
+
+.leo-flash-kick{
+  width: 100%;
+}
