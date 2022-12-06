@@ -2,3 +2,11 @@
     background-color: #CA965C;
   padding: 10% 0 2%;
 }
+
+
+
+@media (max-width: 570px){
+    .select-heading{
+        padding-top: 5%;
+    }
+}
