@@ -11,8 +11,9 @@
     }
 }
 
+/* CHARACTER PORTRAIT LAYOUT */
 .characterPortraits{
-    padding: 10% 20%;
+    padding: 10% 19%;
 }
 
 .portrait{
@@ -20,14 +21,20 @@
     border-style: solid;
     border-width: 10px;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
     cursor: pointer;
     height: 200px;
     width: 200px;
+    margin: 0 10.5% 0 0;
     padding: 0;
 }
 
+.noMarginRight{
+    margin: 0;
+}
+
 .clickedPortrait{
-    border: grey;
+    border: white;
     border-style: solid;
     border-width: 10px;
     border-radius: 10px;
