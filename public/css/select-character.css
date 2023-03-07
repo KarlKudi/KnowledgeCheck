@@ -13,7 +13,7 @@
 
 /* CHARACTER PORTRAIT LAYOUT */
 .characterPortraits{
-    padding: 10% 19%;
+    padding: 5% 19%;
 }
 
 .portrait{
@@ -38,4 +38,8 @@
     border-style: solid;
     border-width: 10px;
     border-radius: 10px;
+}
+
+.characterRow{
+    margin-bottom: 7%;
 }
