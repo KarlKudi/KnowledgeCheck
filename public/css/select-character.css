@@ -1,12 +1,10 @@
 #select-character{
     background-color: #CA965C;
-  padding: 10% 0 2%;
+    padding: 10% 0 2%;
 }
 
 h2{
-    color: white;
     margin-top: 5px;
-    font-family: 'Press Start 2P', cursive;
 }
 
 @media (max-width: 570px){
@@ -17,7 +15,9 @@ h2{
 
 /* CHARACTER PORTRAIT LAYOUT */
 .characterPortraits{
-    padding: 5% 19%;
+    margin: auto;
+    width: 70%;
+    padding: 5% 0;
 }
 
 .portrait{
@@ -45,11 +45,26 @@ h2{
     margin: 0;
 }
 
+.whiteText{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.blackText{
+    color: black;
+}
+
+.smallText{
+    font-size: 1.8rem;
+}
+
 .clickedPortrait{
+    background-color: white;
     border: white;
     border-style: solid;
     border-width: 10px;
     border-radius: 10px;
+    color: black;
 }
 
 .characterRow{
@@ -57,20 +72,9 @@ h2{
 }
 
 /* SCREEN WIDTH MEDIA QUERIES */
-@media ((min-width: 1342px) and (max-width: 1615px)){
-    .characterPortraits{
-        padding: 5% 12.5%;
-    }
-}
 
-@media (max-width: 1342px){
-    .characterPortraits{
-        padding: 5% 7.5%;
-    }
-}
-
-@media (max-width: 1900px){
-    .portrait{
-        margin: 0 5% 0 0;
+@media (max-width: 1623px){
+    .portraitContainer{
+        margin: 0 3% 0 0;
     }
 }

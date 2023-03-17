@@ -1,9 +1,9 @@
-for(i=0; i<$(".characterPortraits img").length; i++){
-    let id = $(".characterPortraits img")[i].id;
+for(i=0; i<$(".characterPortraits .portraitContainer").length; i++){
+    let id = $(".characterPortraits .portraitContainer")[i].id;
     $("#" + id).on("click", function(){
-        $(this).toggleClass("clickedPortrait");
+        $(this).toggleClass("clickedPortrait blackText");
         setTimeout(() =>{
-            $(this).toggleClass("clickedPortrait");
+            $(this).toggleClass("clickedPortrait blackText");
         }, 200);
     })
 }
