@@ -14,11 +14,7 @@ h2{
 }
 
 /* CHARACTER PORTRAIT LAYOUT */
-.characterPortraits{
-    margin: auto;
-    width: 70%;
-    padding: 5% 0;
-}
+
 
 .portrait{
     height: 180px;
@@ -73,8 +69,8 @@ h2{
 
 /* SCREEN WIDTH MEDIA QUERIES */
 
-@media (max-width: 1623px){
+@media (min-width: 1209px){
     .portraitContainer{
-        margin: 0 3% 0 0;
+        margin: 0
     }
 }
